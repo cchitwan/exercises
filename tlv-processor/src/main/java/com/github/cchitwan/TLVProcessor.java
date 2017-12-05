@@ -28,10 +28,4 @@ public class TLVProcessor {
         }
     }
 
-
-    public static void main(String[] args) throws IOException {
-        InputStreamReader in = new InputStreamReader(System.in);
-        final TLVProcessor tlvProcessor = new TLVProcessor(in);
-        tlvProcessor.start();
-    }
 }
