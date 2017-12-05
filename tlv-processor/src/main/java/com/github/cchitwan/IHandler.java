@@ -5,7 +5,7 @@ package com.github.cchitwan;
  */
 public abstract class IHandler {
 
-    public static String FORMATTER = "-";
+    public static final String FORMATTER = "-";
 
     protected abstract String process(String input, int length);
 

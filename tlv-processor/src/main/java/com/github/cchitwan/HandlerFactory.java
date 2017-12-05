@@ -11,9 +11,10 @@ import java.util.Map;
 /**
  * @author chanchal.chitwan on 05/12/17.
  */
-public class ProcessorFactory{
+public class HandlerFactory {
 
     private static Map<Type, IHandler> map = new HashMap<Type, IHandler>();
+
     static {
             map.put(Type.NONE, new UnknownHandler());
             map.put(Type.REPLCE, new ReplaceHandler());

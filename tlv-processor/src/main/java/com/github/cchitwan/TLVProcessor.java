@@ -20,7 +20,7 @@ public class TLVProcessor {
         while ((line = br.readLine())!=null && !line.isEmpty()){
             String input = line;
             while(!input.isEmpty()) {
-                final String result = ProcessorFactory.processInput(input);
+                final String result = HandlerFactory.processInput(input);
                 System.out.println(result);
                 input = input.split(IHandler.FORMATTER, 3)[2].substring(Utility.convertValue(input));
             }
