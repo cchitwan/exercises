@@ -1,0 +1,1 @@
+java -jar target/tlvprocessor-1.0.0-SNAPSHOT.jar < src/main/resources/input
